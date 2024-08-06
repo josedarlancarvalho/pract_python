@@ -22,7 +22,7 @@ class ContaBancaria:
 
 
     def exibir_saldo(self):
-        print(f"Saldo da conta: {self.saldo}")
+        print(f"Saldo da conta: R${self.saldo}")
 
 
     def __str__(self):
